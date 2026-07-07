@@ -18,7 +18,7 @@ Se realizó el análisis de las entidades del negocio y se definieron sus relaci
 
 - PostgreSQL
 - SQL
-- DB Fiddle
+- DB Diagram
 
 ## Modelo de datos
 
