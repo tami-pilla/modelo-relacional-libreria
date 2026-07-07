@@ -1,6 +1,5 @@
 
-# Diseño de Base de Datos Relacional para una Librería
-Diseño de una base de datos relacional para una librería utilizando PostgreSQL y SQL.
+# Diseño de base de datos relacional para una librería
 
 ## Descripción
 
