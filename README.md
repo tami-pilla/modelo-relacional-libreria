@@ -3,17 +3,16 @@
 
 ## Descripción
 
-Diseño de una base de datos relacional para una librería que permita administrar el catálogo de libros,
-clientes, ventas e inventario de distintas sucursales.
+Diseño de una base de datos para una librería que permite organizar libros, clientes, ventas y stock de distintas sucursales.
 
-Se realizó el análisis de las entidades del negocio y se definieron sus relaciones mediante tablas relacionadas entre si.
+Se identificaron las entidades del negocio y se organizó la información en tablas relacionadas entre sí.
 
 ## Contenido del repositorio
 
+- **diagrama-relacional.pdf**: modelo entidad-relación.
 - **schema.sql**: script SQL para la creacion de cada tabla.
-- **diagrama-relacional.pdf**: modelo entidad-relación utilizado para el diseño.
 
-## Tecnologías
+## Herramientas
 
 - PostgreSQL
 - SQL
@@ -21,14 +20,15 @@ Se realizó el análisis de las entidades del negocio y se definieron sus relaci
 
 ## Modelo de datos
 
-El modelo esta formado por las siguientes entidades:
+El modelo esta formado por las siguientes tablas:
 
 - Libros
 - Autores
+- Libros_Autores
 - Editoriales
 - Categorías
 - Clientes
 - Sucursales
-- Stock por sucursal
+- Stock_Sucursal
 - Ventas
-- Detalle de ventas
+- Detalle_Ventas
